@@ -1,5 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+
 body {
+    font-family: 'Crimson Text' ;
     margin: 0;
     padding: 0;
-    background-color: forestgreen;
+    background-color: #fbfbd6;
+}
+
+p {
+    margin: 0 auto;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 600px;
+  }
+
+  h3 {
+    font-size: 45px;
+    line-height: 60px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+
+  img {
+      display: block;
+      margin: auto;
+      width: auto;
+  }
+
+h5 {
+    display: none;
 }
