@@ -98,7 +98,7 @@ h3:first-of-type {
   font-size: 50px;
   line-height: 100%;
   max-width: 600px;
-  color: #233C72;
+  color: darkolivegreen;
 }
 
 .chapter h3 {
@@ -106,9 +106,9 @@ h3:first-of-type {
 }
 
 h1 ~ h3 {
-  border: 2px solid darkolivegreen;
+  border: 2px solid #233C72;
 } 
 
-.chapter:first-child {
-  color: chartreuse;
+h3:first-child{
+  color: #233C72;
 }
