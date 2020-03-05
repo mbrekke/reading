@@ -52,6 +52,7 @@ h5 {
 h1 {
   text-align: center;
   font-size: 50px;
+  color: #233C72;
 }
 
 h2 {
@@ -79,16 +80,27 @@ h3{
 
 table {
   margin: auto;
+  margin-bottom: 3em;
   font-size: 20px;
   line-height: 30px;
+  border-top-width: 5px;
+  border-right-width: 5px;
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+  border-color: maroon;
+  border-style: double;
+}
+
+tr{
+  border: 0px;
 }
 
 a:visited {
-  color: maroon;
+  color: #233C72;
 }
 
 a:link {
-  color: maroon;
+  color: #233C72;
 }
 
 h3:first-of-type {
@@ -98,21 +110,22 @@ h3:first-of-type {
   font-size: 50px;
   line-height: 100%;
   max-width: 600px;
-  color: darkolivegreen;
+  color: #233C72;
 }
 
 .chapter h3 {
-  border: 2px solid maroon;
+  border-bottom: 5px double maroon;
 }
 
 h1 ~ h3 {
-  border: 2px solid #233C72;
+  border-bottom: 5px double maroon;
 } 
 
 h3:first-child{
   color: #233C72;
+  margin-top: 1em;
 }
 
 h3 + p {
-  font-size: 23px;
+  font-size: 26px;
 }
