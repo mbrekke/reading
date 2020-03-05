@@ -112,3 +112,7 @@ h1 ~ h3 {
 h3:first-child{
   color: #233C72;
 }
+
+h3 + p {
+  font-size: 23px;
+}
